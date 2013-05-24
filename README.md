@@ -36,7 +36,7 @@ grunt.initConfig({
 ```
 
 ### Usage Examples
-
+```js
   // Project configuration.
   grunt.initConfig({
     "clean-pattern": {
@@ -51,7 +51,7 @@ grunt.initConfig({
 		'mobileScripts':{path:"test/fixtures/scripts/", pattern:/(mobile|mobileCV)+(\d{6})(.min)?.js/}
 	}
 });
-
+```
 
 ## Contributing
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).
