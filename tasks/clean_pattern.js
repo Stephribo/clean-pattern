@@ -37,7 +37,7 @@ module.exports = function(grunt) {
 			};
 			path = path.replace(/\/$/, '');
 			fileList = fileList.concat(readdirSyncRecursive(path, pattern));
-			for (val in fileList) {
+			for (var val in fileList) {
 			    var currentFile = fileList[val];
 			    currentFile = _path.join(path, currentFile);
 			    fs.unlinkSync(currentFile);
